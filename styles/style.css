@@ -97,3 +97,10 @@ body.dark-mode .node textarea {
   color: #fff;
   border: 1px solid #444;
 }
+
+#capture-form{
+  display: none;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
